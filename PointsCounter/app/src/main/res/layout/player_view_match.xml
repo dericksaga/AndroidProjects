@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/fragPlayerMatch">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playername"
+        android:text="Player_Name"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"/>
+    
+    <ImageView
+        android:layout_width="@dimen/foto_width"
+        android:layout_height="@dimen/foto_height"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/playerphoto"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="@dimen/foto_width"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/lifepoints"
+        android:onClick="lifePointsClick"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/surrender"
+        android:onClick="surrenderClick"
+        android:src="@drawable/surrendericon"/>
+</LinearLayout>
+</LinearLayout>

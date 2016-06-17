@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = "android.dominando.pointscounter.MainActivity">
+    <item android:id="@+id/dicesMenu"
+        android:title="@string/dice_menu"
+        app:showAsAction="never"/>
+</menu>

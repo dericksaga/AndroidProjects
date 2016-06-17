@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.dominando.pointscounter.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="@dimen/bt_width_MainAct"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_newMatch_MainAct"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/bt_marginTop_MainAct"
+        android:id="@+id/bt_newMatch"/>
+    <Button
+        android:layout_width="@dimen/bt_width_MainAct"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_configUser_MainAct"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/bt_marginTop_MainAct"
+        android:id="@+id/bt_configUser"/>
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PointsCounter</string>
+    <string name="p1_name">Siegfried</string>
+    <string name="p2_name">Pegasus</string>
+    <string name="dice_menu">Dados</string>
+    <string name="bt_newMatch_MainAct">Nova Partida</string>
+    <string name="bt_configUser_MainAct">Configurar Usuário</string>
+    <string name="bt_startMach">Iniciar Partida</string>
+</resources>
