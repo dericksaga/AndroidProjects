@@ -6,4 +6,7 @@
     <string name="bt_newMatch_MainAct">Nova Partida</string>
     <string name="bt_configUser_MainAct">Configurar Usuário</string>
     <string name="bt_startMach">Iniciar Partida</string>
+    <string name="bt_newMatch_AddPlayer">Adicionar</string>
+    <string name="bt_newMatch_RemovePlayer">Remover</string>
+    <string name="initial_lifepoints">8000</string>
 </resources>

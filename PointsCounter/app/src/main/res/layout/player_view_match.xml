@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/fragPlayerMatch">
+    android:id="@+id/fragPlayer"
+    android:layout_height="wrap_content">
     
     <TextView
         android:layout_width="wrap_content"
@@ -10,7 +10,7 @@
         android:id="@+id/playername"
         android:text="Player_Name"
         android:layout_gravity="center_horizontal"
-        android:textSize="30dp"/>
+        android:textSize="@dimen/text_pName_size"/>
     
     <ImageView
         android:layout_width="@dimen/foto_width"
@@ -18,24 +18,25 @@
         android:layout_gravity="center_horizontal"
         android:id="@+id/playerphoto"/>
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    >
+   >
     <TextView
         android:layout_width="@dimen/foto_width"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
-        android:layout_marginLeft="110dp"
+        android:textSize="@dimen/text_lPoint_size"
+        android:layout_marginLeft="@dimen/marginLeft_lPoint"
         android:id="@+id/lifepoints"
         android:onClick="lifePointsClick"
         android:textAlignment="center"/>
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_marginLeft="@dimen/marginLeft_surrenderIcon"
         android:id="@+id/surrender"
-        android:onClick="surrenderClick"
-        android:src="@drawable/surrendericon"/>
+        android:src="@drawable/surrendericon"
+        android:onClick="surrenderClick" />
+
 </LinearLayout>
 </LinearLayout>

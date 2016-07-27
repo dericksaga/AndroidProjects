@@ -19,10 +19,11 @@ public class DicesActivity extends AppCompatActivity
     public static final int MAX_TIMES = 7;
     public static final int DICE_TYPE = 6;
     public static final int COIN_TYPE = 2;
+    public static final int DICE20_TYPE = 20;
 
     RandomObj rObj;
     TextView result;
-    ImageButton coinBtn, diceBtn;
+    ImageButton coinBtn, diceBtn, dice20Btn;
     Handler handler;
     int cont; //contador para animação dos dados
     Bitmap imgHead, imgTail;
@@ -37,6 +38,8 @@ public class DicesActivity extends AppCompatActivity
         coinBtn.setOnClickListener(this);
         diceBtn = (ImageButton)findViewById(R.id.diceButton);
         diceBtn.setOnClickListener(this);
+        dice20Btn = (ImageButton)findViewById(R.id.dice20Button);
+        dice20Btn.setOnClickListener(this);
         handler = new Handler();
         cont = 0;
         coinresult = (ImageView)findViewById(R.id.imgCoin);
@@ -75,6 +78,11 @@ public class DicesActivity extends AppCompatActivity
                 result.setVisibility(View.VISIBLE);
                 coinresult.setVisibility(View.INVISIBLE);
                 break;
+            case R.id.dice20Button:
+                rObj = new RandomObj(DICE20_TYPE);
+                result.setVisibility(View.VISIBLE);
+                coinresult.setVisibility(View.INVISIBLE);
+                break;
         }
         cont = 0;
         handler.removeCallbacks(mRunTask);
@@ -90,7 +98,7 @@ public class DicesActivity extends AppCompatActivity
                 result.setText(String.valueOf(rObj.roll()));
                 handler.postDelayed(this,400);
             }else{
-                if(rObj.getNum() != 2) {
+                if(rObj.getNum() != COIN_TYPE) {
                     result.setText(String.valueOf(rObj.roll()));
                 }else{
                     if(rObj.roll() == 1){

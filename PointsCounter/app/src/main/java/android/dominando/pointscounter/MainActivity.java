@@ -28,6 +28,9 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    public static final String SHARED_PREFERENCES_NAME = "configurações";
+    public static final String SHARED_PREFERENCES_USERNAME = "UserName";
+    public static final String SHARED_PREFERENCES_USERIMAGEID = "UserImageId";
 
     Button btNewMatch;
     Button cfgUser;
@@ -55,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(it);
                 break;
             case R.id.bt_configUser:
+                Intent it1 = new Intent(this, ConfigPlayerActivity.class);
+                it1.putExtra(ConfigPlayerActivity.INTENT_ORIGIN, ConfigPlayerActivity.ORIGIN_CONFIGURE_USER);
+                startActivity(it1);
                 break;
         }
     }

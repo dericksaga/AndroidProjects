@@ -5,10 +5,9 @@
     android:layout_height="match_parent"
     tools:context="android.dominando.pointscounter.MainActivity"
     android:orientation="horizontal">
-    <fragment
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:name="android.dominando.pointscounter.PlayerViewMatch"
         android:id="@+id/fragP1"/>
 
     <ImageView
@@ -19,9 +18,8 @@
         android:layout_gravity="center"
         android:onClick="diceIconClick"/>
 
-    <fragment
+    <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:name="android.dominando.pointscounter.PlayerViewMatch"
         android:id="@+id/fragP2"/>
 </LinearLayout>

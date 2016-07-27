@@ -4,6 +4,46 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="foto_width">140dp</dimen>
     <dimen name="foto_height">140dp</dimen>
+    <dimen name="foto_widthMin">90dp</dimen>
+    <dimen name="foto_heightMin">90dp</dimen>
     <dimen name="bt_width_MainAct">160dp</dimen>
     <dimen name="bt_marginTop_MainAct">70dp</dimen>
+    <!-- dimensoes da tela config_user -->
+    <dimen name="pagerview_height">220dp</dimen>
+    <dimen name="editUserName">200dp</dimen>
+    <dimen name="gapBetweenElements">20dp</dimen>
+    <dimen name="marginEditText">40dp</dimen>
+    <!-- dimensoes da tela de new_match-->
+    <dimen name="foto_newMatch">120dp</dimen>
+    <dimen name="edit_lifepoint">120dp</dimen>
+    <dimen name="table_newmatch_margin">5dp</dimen>
+    <dimen name="gap_between_buttons">60dp</dimen>
+    <!-- dimensoes da tela de match_activity_modular -->
+    <dimen name="icon_size">40dp</dimen>
+    <dimen name="gap_between_frags">20dp</dimen>
+    <!-- dimensoes do fragmento de dados e moeda -->
+    <dimen name="result_width">140dp</dimen>
+    <dimen name="result_height">150dp</dimen>
+    <dimen name="result_padding">10dp</dimen>
+    <dimen name="result_textSize">140dp</dimen>
+    <!--dimensoes do fragmento do player_match_view -->
+    <dimen name="text_pName_size">30dp</dimen>
+    <dimen name="text_lPoint_size">40dp</dimen>
+    <dimen name="marginLeft_surrenderIcon">50dp</dimen>
+    <dimen name="marginLeft_lPoint">100dp</dimen>
+    <dimen name="marginLeft_lPoint_land">40dp</dimen>
+    <dimen name="marginLeft_surrenderIcon_land">20dp</dimen>
+    <!-- dimensoes do fragmento do player_view_match_3p -->
+    <dimen name="layout_width">180dp</dimen>
+    <dimen name="image_size3p">120dp</dimen>
+    <dimen name="text_pName_size3p">30dp</dimen>
+    <dimen name="text_lPoint_size3p">35dp</dimen>
+    <dimen name="layout_widthLand">150dp</dimen>
+    <dimen name="text_pName_size3pLand">22dp</dimen>
+    <dimen name="text_lPoint_size3pLand">25dp</dimen>
+    <dimen name="marginTop_suurenderIcon3p">20dp</dimen>
+    <!--dimensoes do fragmento do player_view_match4p -->
+    <dimen name="text_pName_size4p">25dp</dimen>
+    <dimen name="text_lPoint_size4p">35dp</dimen>
+    <dimen name="layout_width4p">180dp</dimen>
 </resources>

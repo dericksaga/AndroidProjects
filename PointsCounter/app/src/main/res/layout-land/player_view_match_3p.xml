@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:id="@+id/fragPlayer"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/foto_width"
+        android:layout_height="@dimen/foto_height"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/playerphoto"/>
+    <LinearLayout
+        android:layout_width="@dimen/layout_widthLand"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/playername"
+            android:text="Player_Name"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/text_pName_size3pLand"/>
+
+        <TextView
+            android:layout_width="@dimen/layout_widthLand"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_lPoint_size3pLand"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/lifepoints"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:id="@+id/surrender"
+            android:src="@drawable/surrendericon"
+            android:layout_marginTop="@dimen/marginTop_suurenderIcon3p"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
